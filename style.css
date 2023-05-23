@@ -1,6 +1,13 @@
+/*  Improvement to make
+    Change layout disposition
+    display alert
+    change color error
+    button redirect
+    span convert to a link
+    change color border when invalid
+    Mb change HTML structure to clean*/
 :root {
     font-family: inter;
-    font-size: ;
     display: flex;
     flex-direction: row;
     --main-color: #572EE4;
@@ -10,11 +17,8 @@
     display: flex;
     flex-direction: row;
 }
-.aste-style {
-    color: red;
-}
 .container-left {
-    /*position: absolute;*/
+    position: absolute;
     width: 510px;
     height: 850px;
     left: 0;
@@ -23,13 +27,12 @@
     color: white;
     background: url(https://images.unsplash.com/photo-1570191913384-7b4ff11716e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
 }
-
 .left-title {
     position: absolute;
     width: 409px;
     height: 132px;
     left: 22px;
-    top: 586px;
+    top: 580px;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -52,37 +55,69 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 650px;
 }
 h1 {
-    margin-bottom: 128px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     font-size: 40px;
+    margin-left: 113px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 fieldset {
     border: none;
-}
+    display: flex;
+    flex-direction:row;
+    margin-top: 15px ;
 
-.test {
+}
+.align {
     display: flex;
     flex-direction: column;
+    margin-left: 113px;
 }
-
 label {
-    
+    margin: 3px 5px;
     font-size: 24px;
 }
 input {
-    width: 318px;
-    height: 52px;
+    width: 280px;
+    height: 50px;
     border-radius: 3px;
     border: 2px solid var(--border-color);
+    padding: 0 10px;
+    font-size: 15px;
+}
+.bottom {
+    margin-top: 75px;
+    margin-left: 113px;
 }
 .button {
-    width: 450px;
-    height: 76px;
+    width: 380px;
+    height: 70px;
     color: white;
     background-color: var(--main-color);
     border: none;
     border-radius: 16px;
     font-size: 36px;
 }
+.sub-button-text {
+    margin-left: 15px;
+}
+.button:active {
+    opacity: 80%;
+}
+input:focus {
+    outline: none !important;
+    border: 2px solid var(--main-color);
+}
+/* need to make it appear only after the button active so JS
+input:invalid {
+    border: 2px solid red;
+}
+
