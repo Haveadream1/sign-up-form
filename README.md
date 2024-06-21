@@ -16,16 +16,16 @@ The purpose of this website is to practice the form with the HTML verification a
 
 ## TODO:
 
-    Review structure => grid                          DONE    
-    Animate the text on the bottom left  
-    Review name                                       DONE  
-    Error handling  
-       Red border  
-       Special text message  
-       More clear message  
-    Form  
-       Issue with phone number 10  
-       Password and the comfirmation doesn't match  
-       Submit button redirect  
-    H1 weight                                         DONE  
-    Span convert to a link  
+   Review structure => grid                          DONE    
+   Animate the text on the bottom left  
+   Review name                                       DONE  
+   Error handling                                    JS
+      Red border  
+      Special text message  
+      More clear message  
+   Form  
+      Issue with phone number 10                     DONE  
+      Password and the comfirmation doesn't match    JS  
+      Submit button redirect                         JS
+   H1 weight                                         DONE  
+   Span convert to a link  
