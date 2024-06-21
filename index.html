@@ -11,56 +11,54 @@
     <title>Sign-up form</title>
 </head>
 <body>
-    <div class="container">
-        <div class="container-left">
-            <p class="left-title">Discover our Best Program to Study Abroad</p>
-            <p class="left-sub">Already more than 65 215 register, will you be the <span style="color: #B7A3FF ; ">next ?</span></p>
-        </div>
+    <aside>
+        <h1>Discover our Best Program to Study Abroad</h1>
+        <p>Already more than 65 215 registers, will you be the <span style="color: #B7A3FF ; ">next ?</span></p>
+    </aside>
 
-        <div class="container-right">
-            <h1>Create an account</h1>
-            <form action="post">
-                <fieldset>
-                    <div class="align">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="Jack">
-                    </div>
-                    <div class="align">
-                        <label for="last-name">Last Name<span style="color: red;">*</span></label>
-                        <input type="text" id="last-name" name="last-name" placeholder="McFisher" required>
-                    </div>
-                </fieldset>
+    <main>
+        <h1>Create an account</h1>
+        <form action="post">
+            <fieldset>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Chul">
+                </div>
+                <div>
+                    <label for="last-name">Last Name<span style="color: red;">*</span></label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Kim" required>
+                </div>
+            </fieldset>
 
-                <fieldset>
-                    <div class="align">
-                        <label for="email-address">Email Address<span style="color: red;">*</span></label>
-                        <input type="email" id="email-address" name="email-address" placeholder="adf@gmail.com" required>
-                    </div>
-                    <div class="align">
-                        <label for="phone-number">Phone Number</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="074 550 702"  pattern='[0-9]{10}' title="Must contain 10 numbers" required>
-                    </div>
-                </fieldset>
+            <fieldset>
+                <div>
+                    <label for="email-address">Email Address<span style="color: red;">*</span></label>
+                    <input type="email" id="email-address" name="email-address" placeholder="chulkim@gmail.com" required>
+                </div>
+                <div>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="074 550 702"  pattern='[0-9]{10}' title="Must contain 10 numbers" required>
+                </div>
+            </fieldset>
 
-                <fieldset>
-                    <div class="align">
-                        <label for="password">Password<span style="color: red;">*</span></label>
-                        <input type="password" id="password" name="password" placeholder="*******">
-                    </div>
-                    <div class="align">
-                        <label for="confirm-password">Confirm Password<span style="color: red;">*</span></label>
-                        <input type="password" id="confirm-password" name="confirm-password" placeholder="*******" required>
-                    </div>
-                </fieldset>
-                
-                <fieldset>
-                    <div class="bottom">
-                        <button class="button" type="submit">Sign up</button>
-                        <p class="sub-button-text">Already have an account ? <span style="color: #471FC1;">Log in</span></p>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-    </div>
+            <fieldset>
+                <div>
+                    <label for="password">Password<span style="color: red;">*</span></label>
+                    <input type="password" id="password" name="password" placeholder="*******">
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password<span style="color: red;">*</span></label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="*******" required>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <div class="submit">
+                    <button type="submit">Sign up</button>
+                    <p>Already have an account ? <span style="color: #471FC1;">Log in</span></p>
+                </div>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

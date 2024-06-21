@@ -1,6 +1,6 @@
 :root {
-    --main-color: #572EE4;
-    --border-color: #D9D9D9;
+    --light-purple: #572EE4;
+    --grey-border: #D9D9D9;
 }
 
 body {
@@ -31,18 +31,18 @@ aside > p {
     margin-top: 0;
 }
 
-.container-right {
-    display: flex;
-    flex-direction: column;
+main {
+    display: grid;
+    grid-template-rows: auto;
     justify-content: center;
-    align-items: center;
+    justify-items: center;
+    align-content: center;
 }
 main > h1 {
-    margin-top: 80px;
-    margin-bottom: 40px;
-    font-size: 40px;
-    margin-left: 113px;
+    font-size: 36px;
+    font-weight: 400;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -50,54 +50,48 @@ form {
     align-items: center;
 }
 fieldset {
+    margin: 0;
     border: none;
     display: flex;
     flex-direction:row;
-    margin-top: 15px ;
-
+    padding: 10px 15px;
 }
-.align {
+fieldset > div {
     display: flex;
     flex-direction: column;
-    margin-left: 113px;
+    padding: 15px;
 }
 label {
-    margin: 3px 5px;
     font-size: 24px;
+    padding: 5px;
 }
 input {
     width: 280px;
     height: 50px;
     border-radius: 3px;
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--grey-border);
     padding: 0 10px;
     font-size: 15px;
 }
-.bottom {
-    margin-top: 75px;
-    margin-left: 113px;
-}
-.button {
-    width: 380px;
-    height: 70px;
+
+.submit > button {
+    width: 300px;
+    height: 60px;
     color: white;
-    background-color: var(--main-color);
+    background-color: var(--light-purple);
     border: none;
     border-radius: 16px;
-    font-size: 36px;
+    font-size: 30px;
 }
-.sub-button-text {
-    margin-left: 15px;
+.submit > button:active {
+    opacity: 70%;
 }
-.button:active {
-    opacity: 80%;
-}
-input:focus {
-    outline: none !important;
-    border: 2px solid var(--main-color);
-}
-/* need to make it appear only after the button active so JS
-input:invalid {
-    border: 2px solid red;
+.submit > p {
+    margin: 15px;
+    font-size: 15px;
 }
 
+input:focus {
+    outline: none !important;
+    border: 2px solid var(--light-purple);
+}
