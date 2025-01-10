@@ -1,4 +1,4 @@
-# Sign-up form
+# Sign Up form
 This project represents a form with 6 entries for general informations in the context of a program to study abroad.
 
 ## Goal
@@ -7,17 +7,17 @@ The purpose of this website is to practice the form with the HTML verification a
 ## Preview
 [Join the study abroad program](https://haveadream1.github.io/sign-up-form/)
 
-## Credit :
+## Credit
 [Image source](https://images.unsplash.com/photo-1570191913384-7b4ff11716e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
 
-## TODO:  
-   Animate the text on the bottom left  
-   Error handling                                    JS
-      Red border  
-      Special text message  
-      More clear message  
-   Form  
-      Issue with phone number 10                     DONE  
-      Password and the comfirmation doesn't match    JS  
-      Submit button redirect                         JS
-   Span convert to a link  
+## TODO:
+1. Animate the text on the bottom left
+2. Error handling                                    JS
+* Red border  
+* Special text message  
+* More clear message  
+3. Form  
+* Issue with phone number 10                     DONE/Verify  
+* Password and the comfirmation doesn't match    JS  
+* Submit button redirect                         JS
+* Span convert to a link  
