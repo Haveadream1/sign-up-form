@@ -18,7 +18,6 @@ The purpose of this website is to practice the form with the HTML verification a
 * Special text message  
 * More clear message  
 3. Form  
-* Issue with phone number 10                     DONE/Verify  
 * Password and the comfirmation doesn't match    JS  
 * Submit button redirect                         JS
 * Span convert to a link  
