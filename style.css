@@ -95,3 +95,7 @@ input:focus {
     outline: none !important;
     border: 2px solid var(--light-purple);
 }
+input:focus:invalid {
+    outline: none !important;
+    border: 2px solid red;
+}
