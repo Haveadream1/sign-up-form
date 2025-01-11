@@ -13,12 +13,5 @@ The purpose of this website is to practice the form with the HTML verification a
 
 ## TODO:
 1. Animate the text on the bottom left
-2. Error handling                                    JS
-* Red border  
-* Special text message  
-* More clear message  
-3. Form  
-* Password and the comfirmation doesn't match   
+3. Form    
 * Submit button redirect                         
-* Span convert to a link
-* Check required field, phone number
