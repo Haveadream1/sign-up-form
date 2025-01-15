@@ -53,7 +53,7 @@ fieldset {
     margin: 0;
     border: none;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     padding: 10px 15px;
 }
 fieldset > div {
